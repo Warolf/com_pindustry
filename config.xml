@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="Frontend_Search" label="COM_ANIEWS_FRONTEND_SEARCH">
+        <field name="search_excludes" type="text" label="COM_ANIEWS_SEARCH_EXCLUDES_LABEL" description="COM_ANIEWS_SEARCH_EXCLUDES_DESC" default="300" />
+    </fieldset>
+</config>

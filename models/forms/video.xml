@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="fields" addfieldpath="/administrator/components/com_emenuk/models/fields" >
+		<field name="id" type="hidden" />
+        <field name="company_id" type="hidden" />
+        <field name="ordering" type="hidden" />
+        <field name="skip" type="hidden" />
+        
+        <field name="name" type="texttr" size="40" class="inputbox" default="" label="COM_ANIEWS_ANIME_NAME" description="COM_ANIEWS_ANIME_NAME_DESC" maxlength="video" />
+        
+		<field name="type" type="list" label="COM_ANIEWS_ANIME_VIDEOTYPE" description="COM_ANIEWS_ANIME_VIDEOTYPE_DESC">
+            <option value="Youtube">Youtube</option>
+            <option value="Vimeo">Vimeo</option>
+        </field>
+        
+        <field name="video" type="texttr" size="55" class="inputbox" default="" label="COM_ANIEWS_ANIME_VIDEOID" description="COM_ANIEWS_ANIME_VIDEOID_DESC" />
+        
+		<field name="published" type="radio"
+			label="COM_ANIEWS_VIDEO_PUBLISHED_LABEL" description="COM_ANIEWS_VIDEO_PUBLISHED_DESC">
+			<option value="1">COM_ANIEWS_VIDEO_PUBLISHED</option>
+			<option value="0">COM_ANIEWS_VIDEO_UNPUBLISHED</option>
+		</field>
+	</fieldset>
+</form>

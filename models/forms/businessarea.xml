@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="hidden" />
+
+<field name="name" type="texttr" size="40" class="inputbox" default="" label="COM_ANIEWS_ANIME_NAME" description="COM_ANIEWS_ANIME_NAME_DESC" />
+		
+		<field name="creator" type="texttr" size="40" class="inputbox" default="" label="COM_ANIEWS_CRE" description="COM_ANIEWS_CRE_DESC" />
+		
+		<field name="yearc" type="texttr" size="40" class="inputbox" default="" label="COM_ANIEWS_DATA" description="COM_ANIEWS_DATA_DESC" />
+		
+		<field name="season" type="texttr" size="40" class="inputbox" default="" label="COM_ANIEWS_EPO" description="COM_ANIEWS_EPO_DESC" />
+        
+        <field name="description" editor="true" type="textareatr" class="inputbox" default="" label="COM_ANIEWS_RES" description="COM_ANIEWS_RES_DESC" />
+        
+        <field name="published" type="radio" onclick="alert('disable on/off');" label="COM_ANIEWS_ANIME_PUBLISHED" description="COM_ANIEWS_ANIME_PUBLISHED_DESC">
+            <option value="1">COM_ANIEWS_ANIME_PUBLISHED_YES</option>
+            <option value="0">COM_ANIEWS_ANIME_PUBLISHED_NO</option>
+        </field>
+	</fieldset>
+
+	<fieldset name="image">
+		<field name="image" type="media" asset_field="asset_id" directory="portugalindustry" class="inputbox" default="" size="40" label="COM_ANIEWS_ANIME_IMAGE" description="COM_ANIEWS_ANIME_IMAGE_DESC" />
+	</fieldset>
+    
+    <fieldset name="tags">
+        <field name="tag_pt" type="text" size="110" class="inputbox" default="" label="Tags PT" description="EX : Naruto Anime; Anime; Naruto" />
+        
+        <field name="tag_en" type="text" size="110" class="inputbox" default="" label="Tags EN" description="EX : Naruto Anime; Anime; Naruto" />
+    </fieldset>
+</form>
